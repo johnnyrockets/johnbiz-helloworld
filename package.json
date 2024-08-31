@@ -23,9 +23,6 @@
     "access": "public"
   },
   "files": [
-    "dist",
-    "package.json",
-    "package-lock.json",
-    "README.md"
+    "dist"
   ]
 }

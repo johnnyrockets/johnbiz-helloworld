@@ -30,7 +30,7 @@ jobs:
       - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
         run: npm audit signatures
       - name: Complie typescript
-        run: tsc
+        run: npm run build
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.SECRET_TOKEN }}
